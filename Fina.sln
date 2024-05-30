@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fina.Api", "Fina.Api\Fina.Api.csproj", "{12890EBB-0A48-4FA9-BC59-64FAC516CF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fina.Web", "Fina.Web\Fina.Web.csproj", "{DE986EB5-9BD9-4F13-B8BB-C763BD2BE790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fina.Core", "Fina.Core\Fina.Core.csproj", "{8DF26A37-8272-44E7-9403-C5AFA9910070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12890EBB-0A48-4FA9-BC59-64FAC516CF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12890EBB-0A48-4FA9-BC59-64FAC516CF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12890EBB-0A48-4FA9-BC59-64FAC516CF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12890EBB-0A48-4FA9-BC59-64FAC516CF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE986EB5-9BD9-4F13-B8BB-C763BD2BE790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE986EB5-9BD9-4F13-B8BB-C763BD2BE790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE986EB5-9BD9-4F13-B8BB-C763BD2BE790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE986EB5-9BD9-4F13-B8BB-C763BD2BE790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF26A37-8272-44E7-9403-C5AFA9910070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF26A37-8272-44E7-9403-C5AFA9910070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF26A37-8272-44E7-9403-C5AFA9910070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF26A37-8272-44E7-9403-C5AFA9910070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {024B24A6-65AE-42E7-A7DB-3066E5E028BF}
+	EndGlobalSection
+EndGlobal
