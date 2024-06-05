@@ -10,6 +10,10 @@ namespace Fina.Api.Endpoints
         {
             var endpoints = app.MapGroup("");
 
+            endpoints.MapGroup("/")
+                .WithTags("Health Check")
+                .MapGet("/", () => new { message = "OK" });
+
             endpoints.MapGroup("v1/categories")
                 .WithTags("Categories")
                 .MapEndpoint<CreateCategoryEndpoint>()
@@ -20,12 +24,11 @@ namespace Fina.Api.Endpoints
 
             endpoints.MapGroup("v1/transactions")
                 .WithTags("Transactions")
-                .MapEndpoint<CreateTransactionEndpoint>()
-                .MapEndpoint<DeleteTransactionEndpoint>()
-                .MapEndpoint<UpdateTransactionEndpoint>()
-                .MapEndpoint<GetAllCategoriesEndpoint>()
-                .MapEndpoint<GetTransactionByIdEndpoint>()
-                .MapEndpoint<GetTransactionByPeriodEndpoint>();
+               .MapEndpoint<CreateTransactionEndpoint>()
+               .MapEndpoint<DeleteTransactionEndpoint>()
+               .MapEndpoint<UpdateTransactionEndpoint>()
+               .MapEndpoint<GetTransactionByIdEndpoint>()
+               .MapEndpoint<GetTransactionByPeriodEndpoint>();
         }
 
         private static IEndpointRouteBuilder MapEndpoint<TEndpoint>(this IEndpointRouteBuilder app) where TEndpoint : IEndpoint
